@@ -32,7 +32,7 @@ class Net(nn.Module):
 
 model = Net()
 print(model)
-model.load_state_dict(torch.load('model.pt'))
+model.load_state_dict(torch.load('../models/model.pt'))
 
 
 # In[39]:
