@@ -55,7 +55,7 @@ class App(QWidget):
         self.clearButton.setFont(font)
         self.label = QLabel('Result:', self)
         self.label.setFont(font)
-        self.label.setGeometry(40*self.scale, 440*self.scale, 150*self.scale, 50)
+        self.label.setGeometry(40*self.scale, 440*self.scale, 200*self.scale, 50)
         self.map = Paint(self, self.scale)
         self.map.move(260*self.scale, 190*self.scale)
         self.map2 = QLabel(self)
