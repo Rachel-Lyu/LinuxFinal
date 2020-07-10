@@ -110,7 +110,6 @@ class App(QWidget):
         if self.comboBox.currentIndex() == 0:
             self.map.pixmap.save("./tmp.jpg", "JPG")
             img = Image.open("./tmp.jpg")
-            img = img.crop((0, 0, 210, 210))
             img = img.resize((28, 28))
             img = img.convert('L')
         else:
@@ -214,7 +213,7 @@ class Paint(QWidget):
                     continue
 
                 painter.drawLine(
-                    point_start[0], point_start[1], point_end[0], point_end[1])
+                    point_start[0]*2/self.scale, point_start[1]*2/self.scale, point_end[0]*2/self.scale, point_end[1]*2/self.scale)
                 painter2.drawLine(
                     point_start[0], point_start[1], point_end[0], point_end[1])
                 point_start = point_end
