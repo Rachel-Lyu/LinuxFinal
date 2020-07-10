@@ -174,7 +174,7 @@ class App(QWidget):
             os.remove("tmp.png")
         except:
             QMessageBox.warning(self, 'Warning',
-                                     "The file cannot be found.")
+                                     "Cannot open the file!")
 
 
 class Paint(QWidget):
