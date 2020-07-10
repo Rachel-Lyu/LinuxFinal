@@ -6,8 +6,11 @@ from PyQt5.QtWidgets import QWidget, QMessageBox, QGridLayout, QApplication, QDe
 from PyQt5.QtGui import QIcon, QColor, QPainter, QPen, QPixmap, QFont
 from PyQt5.QtCore import Qt
 import numpy as np
-from letter_iden.utils.inum import num_predict
-from letter_iden.utils.liden import pred_letter
+
+sys.path.append('./utils')
+sys.path.append('./')
+from inum import num_predict
+from liden import pred_letter
 
 
 class App(QWidget):
@@ -105,9 +108,10 @@ class App(QWidget):
 
     def process(self):
         if self.comboBox.currentIndex() == 0:
-            self.map.pixmap.save("tmp.jpg", "JPG")
-            img = Image.open("tmp.jpg")
-            img = img.resize((28, 28), Image.ANTIALIAS)
+            self.map.pixmap.save("./tmp.jpg", "JPG")
+            img = Image.open("./tmp.jpg")
+            img = img.crop((0, 0, 210, 210))
+            img = img.resize((28, 28))
             img = img.convert('L')
         else:
             img = Image.open(self.text.text())
