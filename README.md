@@ -14,4 +14,5 @@
 | seaborn     | 0.10.1  |
 | tensorflow  | 2.2.0   |
 | matplotlib  | 3.2.2   |
+
 环境缺失可使用ANACONDA的Environments进行配置
