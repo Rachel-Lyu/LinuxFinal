@@ -6,7 +6,7 @@
 
 import matplotlib.image as mp
 from keras.models import load_model
-model = load_model('../models/model.kmd')
+model = load_model('./models/model.kmd')
 
 
 # In[2]:
