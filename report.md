@@ -20,7 +20,7 @@
 
 多层感知器（MLP，Multilayer Perceptron）是一种前馈人工神经网络模型，也叫人工神经网络（ANN，Artificial Neural Network），其将输入的多个数据集映射到单一的输出的数据集上,除了输入输出层，它中间可以有多个隐层，相邻两层的所有神经元两两相连，且网络中不存在回路，如图所示。
 
-![image-20200710104921714](基于深度学习的实现手写数字及字母识别.assets/image-20200710104921714.png)
+![image-20200710104921714](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710104921714.png)
 
 **Pytorch框架**
 
@@ -58,21 +58,21 @@ Keras在代码结构上由面向对象方法编写，完全模块化并具有可
 
 第四步：可视化数据
 
-![image-20200710105019097](基于深度学习的实现手写数字及字母识别.assets/image-20200710105019097.png)
+![image-20200710105019097](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105019097.png)
 
 第五步：定义神经网络结构
 
-![image-20200710105027805](基于深度学习的实现手写数字及字母识别.assets/image-20200710105027805.png)
+![image-20200710105027805](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105027805.png)
 
 第六步：定义损失函数和梯度下降优化器
 
-![image-20200710105035483](基于深度学习的实现手写数字及字母识别.assets/image-20200710105035483.png)
+![image-20200710105035483](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105035483.png)
 
 第七步：训练神经网络
 
 第八步：可视化训练误差和验证误差
 
-![image-20200710105124509](基于深度学习的实现手写数字及字母识别.assets/image-20200710105124509.png)
+![image-20200710105124509](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105124509.png)
 
 第九步：载入验证集损失最低的模型
 
@@ -80,7 +80,7 @@ Keras在代码结构上由面向对象方法编写，完全模块化并具有可
 
 第十一步：对整个测试集进行评估
 
-![image-20200710105138886](基于深度学习的实现手写数字及字母识别.assets/image-20200710105138886.png)
+![image-20200710105138886](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105138886.png)
 
 **字母部分**
 
@@ -90,13 +90,13 @@ Keras在代码结构上由面向对象方法编写，完全模块化并具有可
 
 第三步：数据集探索、可视化、查看目标的分布状况
 
-![image-20200710105241176](基于深度学习的实现手写数字及字母识别.assets/image-20200710105241176.png)
+![image-20200710105241176](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105241176.png)
 
 第四步：数据集的标准化和修改维度
 
-![image-20200710105356603](基于深度学习的实现手写数字及字母识别.assets/image-20200710105356603.png)
+![image-20200710105356603](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105356603.png)
 
-![image-20200710105426976](基于深度学习的实现手写数字及字母识别.assets/image-20200710105426976.png)
+![image-20200710105426976](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105426976.png)
 
 第五步：定义神经网络结构（keras卷积神经网络）
 
@@ -104,15 +104,15 @@ Keras在代码结构上由面向对象方法编写，完全模块化并具有可
 
 第七步：训练神经网络，保存模型
 
-![image-20200710105502468](基于深度学习的实现手写数字及字母识别.assets/image-20200710105502468.png)
+![image-20200710105502468](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105502468.png)
 
 第八步：可视化训练误差和验证误差
 
-![image-20200710105749445](基于深度学习的实现手写数字及字母识别.assets/image-20200710105749445.png)
+![image-20200710105749445](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105749445.png)
 
 第九步：挑选一个数据进行评估
 
-![image-20200710105843223](基于深度学习的实现手写数字及字母识别.assets/image-20200710105843223.png)
+![image-20200710105843223](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105843223.png)
 
 **结果**
 
@@ -120,11 +120,11 @@ Keras在代码结构上由面向对象方法编写，完全模块化并具有可
 
 数字识别准确率：
 
-![image-20200710105138886](基于深度学习的实现手写数字及字母识别.assets/image-20200710105138886.png)
+![image-20200710105138886](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710105138886.png)
 
 识别错误样例：
 
-![image-20200710110108322](基于深度学习的实现手写数字及字母识别.assets/image-20200710110108322.png)
+![image-20200710110108322](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710110108322.png)
 
 手写字母识别：
 
@@ -136,7 +136,7 @@ Keras在代码结构上由面向对象方法编写，完全模块化并具有可
 
 从http://projector.tensorflow.org/对MNIST数据集的聚类分析可以看出，由于有些手写数字样本与其他数字有着相近的特点，这些噪声对训练的准确率造成负面影响，也在测试中容易产生误判：
 
-![image-20200710110911570](基于深度学习的实现手写数字及字母识别.assets/image-20200710110911570.png)
+![image-20200710110911570](https://gitee.com/linuxgroup2/finalproj/raw/master/report.assets/image-20200710110911570.png)
 
 随着神经网络深度的增加，在模型训练过程中会出现过拟合、训练低效、泛化能力弱等问题。在后续的文献查阅过程中，发现集成学习可以将多个具有差异性的弱分类器联合起来，通过优势互补来提高集成分类性能，从而将弱分类器提升为强分类器。集成方法的核心就是通过降低个体复杂度，增加群体差异性，来提高集成分类器的预测性能，这为改善深度学习的泛化能力和过拟合问题提供了新的思路。
 
